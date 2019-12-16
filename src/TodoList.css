@@ -1,0 +1,50 @@
+:root {
+  --dark-grey: rgba(0,0,0,0.2);
+}
+
+.TodoList {
+  max-width: 400px;
+  padding: 1em;
+  margin: 100px auto;
+  border-radius: 3px;
+  box-shadow: 0 0 3px var(--dark-grey);
+}
+
+.TodoList h1 {
+  text-align: center;
+  margin: 0;
+  padding-bottom: 1em;
+  border-bottom: 1px dashed var(--dark-grey);
+}
+
+.TodoList ul {
+  list-style: none;
+  margin: 0 0 1em 0;
+  padding: 0;
+}
+
+.TodoList li {
+  padding: 1em 0;
+  border-bottom: 1px dashed var(--dark-grey);
+}
+
+.TodoList li input[type=checkbox] {
+  margin-right: 1em;
+}
+
+.TodoList li button {
+  float: right;
+  background-color: var(--dark-grey);
+  border: none;
+  padding: 0.3em 0.6em;
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+.TodoList input[type=text] {
+  display: block;
+  padding: 0.3em 0.6em;
+  width: 100%;
+  font-size: 1em;
+  box-sizing: border-box;
+}
